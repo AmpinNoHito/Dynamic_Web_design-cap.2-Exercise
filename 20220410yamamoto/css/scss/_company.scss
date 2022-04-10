@@ -1,0 +1,17 @@
+.company-table {
+  &__body {
+    width: 100%;
+  }
+
+  &__row {
+    border-top: 1px solid #000;
+    &:last-of-type {
+      border-bottom: 1px solid #000;
+    }
+  }
+
+  &__header {
+    width: 30%;
+    padding: 25px 0;
+  }
+}

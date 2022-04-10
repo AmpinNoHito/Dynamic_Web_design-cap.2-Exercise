@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* ------------------------ global styling ------------------------ */
+@use "scss/mixin";
+@use "scss/reset";
+@use "scss/base";
+@use "scss/component";
+@use "scss/layout";
+
+/* ------------------------ local styling ------------------------*/
+@use "scss/index";
+@use "scss/service";
+@use "scss/news";
+@use "scss/company";
+@use "scss/recruit";
+@use "scss/contact";

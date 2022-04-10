@@ -1,0 +1,26 @@
+@use "./mixin" as mx;
+
+.news {
+  &__link {
+    display: block;
+    border: 1px solid #000;
+    @include mx.change-opacity;
+    &:not(:last-of-type) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__item {
+    padding: 20px;
+  }
+
+  &__date {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  &__content {
+    display: inline-block;
+    font-weight: bold;
+  }
+}
